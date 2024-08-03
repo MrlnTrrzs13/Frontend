@@ -133,6 +133,25 @@ button[disabled=disabled], button:disabled {
 	border: 1px solid red;
 }
 
-.paciente-incorrecto {
+.paciente-incorrecto{
 	background-color: lightcoral;
+}
+
+#mensajes-errores{
+	color:red
+}
+
+.fadeOut{
+	opacity: 0;
+	transition:0.5s;
+}
+
+#filtrar-tabla{
+	width: 200px;
+	height: 35px;
+	margin-bottom: 10px;
+}
+
+.invisible{
+	display:none;
 }
